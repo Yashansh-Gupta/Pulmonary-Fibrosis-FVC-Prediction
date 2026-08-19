@@ -85,7 +85,7 @@ I built and evaluated two models:
 - Patient metadata (age, sex, smoking status, etc.)
 - Time-stamped FVC measurements
 
-> **Note**: Dataset is not included in this repo due to privacy constraints.
+
 
 ---
 
@@ -93,8 +93,8 @@ I built and evaluated two models:
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/sagar-24bytes/IPF-Detection-using-ML.git
-   cd IPF-Detection-using-ML
+   git clone https://github.com/sagar-24bytes/Pulmonary-Fibrosis-FVC-Prediction.git
+   cd Pulmonary-Fibrosis-FVC-Prediction
    ```
 
 
@@ -113,7 +113,7 @@ I built and evaluated two models:
   - Run all cells to train/evaluate the models.  
 
 ## 👨‍💻 Author
-**Sagar Chandra** (AI/ML Enthusiast)
+**Sagar Chandra** 
 
 - GitHub:  sagar-24bytes
 
