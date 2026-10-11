@@ -4,7 +4,7 @@
 
 ---
 
-## 🩺 Project Overview
+## Project Overview
 
 Idiopathic Pulmonary Fibrosis (IPF) is a chronic lung disease that leads to scarring (fibrosis) of the lungs and severely impacts respiratory function. This project proposes a multimodal machine learning system to predict Forced Vital Capacity (FVC) from:
 
@@ -17,7 +17,7 @@ I built and evaluated two models:
 
 ---
 
-## 📁 Repository Contents
+## Repository Contents
 
 | File / Folder              | Description                                            |
 |----------------------------|------------------------------------------------------- |
@@ -29,9 +29,9 @@ I built and evaluated two models:
 
 ---
 
-## 🧠 Methodology
+## Methodology
 
-### 🔹 Data Pipeline
+### Data Pipeline
 
 1. **DICOM to PNG conversion**  
    - Applied lung window preprocessing and finally converted dcm to png
@@ -41,7 +41,7 @@ I built and evaluated two models:
    - Preprocessed CT images
    - Tabular clinical features
 
-### 🔹 Model Architecture
+### Model Architecture
 
 - **Dual-Branch Network**:
   - CNN branch: Extracts features from CT slices
@@ -51,7 +51,7 @@ I built and evaluated two models:
 
 ---
 
-## 📊 Results
+## Results
 
 ### EfficientNetB0 Model
 - MAE ->      105.31
@@ -67,7 +67,7 @@ I built and evaluated two models:
 
 
 
-### 📉 FVC Prediction vs Ground Truth
+### FVC Prediction vs Ground Truth
 
 **EfficientNetB0**
 ![FVC Prediction (EfficientNetB0)](images/efficientnet_scatter.png)
@@ -77,7 +77,7 @@ I built and evaluated two models:
 
 ---
 
-## 💾 Dataset
+## Dataset
 
   Dataset which is used is from the [Kaggle OSIC Pulmonary Fibrosis Progression Challenge](https://www.kaggle.com/competitions/osic-pulmonary-fibrosis-progression), which includes:
 
@@ -89,7 +89,7 @@ I built and evaluated two models:
 
 ---
 
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 1. **Clone the repository**:
    ```bash
@@ -112,13 +112,11 @@ I built and evaluated two models:
 
   - Run all cells to train/evaluate the models.  
 
-## 👨‍💻 Author
-**Sagar Chandra** 
+## Author
+**Yashansh Gupta** 
 
-- GitHub:  sagar-24bytes
 
-- Linkedin: sagar-chandra07
 
-## 📝 License
+## License
 
 This project is licensed under the [MIT License](LICENSE) — see the LICENSE file for details.
